@@ -1,0 +1,24 @@
+{
+  "name": "expressmysql-todo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npm nodemon server/sever.js -w server"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Synaxis/expressMysql-todo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Synaxis/expressMysql-todo/issues"
+  },
+  "homepage": "https://github.com/Synaxis/expressMysql-todo#readme"
+}

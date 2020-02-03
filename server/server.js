@@ -1,6 +1,9 @@
 const express = require('express');
-
+const apiRouter = require('./routes');
 const app = express();
+
+
+app.use('/api/test', apiRouter);
 
 app.use(express.json());
 
